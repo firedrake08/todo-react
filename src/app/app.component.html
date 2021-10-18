@@ -1,0 +1,24 @@
+<body>
+  <!-- <h1>Organizapp</h1>
+  <div class="container">
+    <input type="text" #task (keyup)="0" class="form-control" placeholder="Add a Task">
+    <button id="at" (click)="addTask(task.value)" class="btn btn-primary">Add Task</button>
+    <ul id="list">
+      <li *ngFor="let t of tasks;let i = index" [ngClass]="t.status?'over':''">{{t.value}}
+        <button class="btn btn-success" (click)="doneTask(i)" *ngIf="t.status==false">Done</button>
+        <button class="btn btn-warning" (click)="undoTask(i)" *ngIf="t.status==true">Undo</button>
+        <button id="delbtn" class="btn btn-danger" (click)="deleteTask(i)" [disabled]="!t.status">Delete</button>
+      </li>
+    </ul>
+  </div> -->
+
+  <!--ag-grid-component-->
+  <ag-grid-angular
+    style="width: 500px; height: 500px;"
+    class="ag-theme-alpine"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+    >
+</ag-grid-angular>
+</body>
+

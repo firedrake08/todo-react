@@ -1,0 +1,38 @@
+*{
+    margin:30px;
+}
+
+h1{
+  text-align: center;
+}
+
+#at{
+    margin:0 450px 0 550px;
+}
+
+.over{
+    text-decoration: line-through;
+  }
+
+  #list{
+    margin-left: 400px;
+
+  }
+
+  #delbtn{
+      margin-left:0px;
+  }
+ 
+
+  body{
+    margin-left:0px;
+    height: 548px;
+    width: 100%;
+    background-image: url("/assets/bg2.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+  }
+
+.form-control{
+    margin-left:30px
+}
